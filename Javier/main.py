@@ -186,7 +186,7 @@ if __name__ == "__main__":
     predictor = StockPredictor(company='AAPL').run_pipeline()
     
     # Example predictions from historical dates
-    test_dates = ['2010-01-01', '2015-06-15', '2020-03-01']  # Try different dates
+    test_dates = ['2010-01-01', '2015-06-15', '2020-03-01']  
     
     for date in test_dates:
         predictor.predict_from_date(date)
