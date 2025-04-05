@@ -6,7 +6,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error
 import matplotlib.pyplot as plt
 import os
 
-# Let's pick a company to predict - I'll use Apple (AAPL) as an example
+# Company: Apple (AAPL)
 COMPANY = 'AAPL'
 DATA_DIR = '/home/max/Documents/Programs/Python/data/stocks2/'
 
