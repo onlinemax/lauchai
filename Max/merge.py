@@ -57,8 +57,8 @@ with connection.cursor() as cursor:
             cursor.execute(query)
             rows = cursor.fetchone(); 
             if rows == None or len(rows) == 0:
-                for ran in quarter_ranges:
-                    data.append(collect_data(None, year, ran[0]))
+                # for ran in quarter_ranges:
+                #     data.append(collect_data(None, year, ran[0]))
                 continue
 
             for ran in quarter_ranges:

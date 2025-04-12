@@ -5,7 +5,6 @@ companies = [
     "AMZN",
     "META",
     "GOOGL",
-    "BRK.B",
     "AVGO",
     "GOOG",
     "TSLA",
@@ -119,7 +118,6 @@ companies = [
     "MCK",
     "PH",
     "CRWD",
-    "GEV",
     "MMM",
     "KKR",
     "ORLY",
@@ -320,7 +318,6 @@ companies = [
     "CPAY",
     "SBAC",
     "HPE",
-    "SW",
     "ADM",
     "STE",
     "NVR",
@@ -455,7 +452,6 @@ companies = [
     "HST",
     "NWSA",
     "SWKS",
-    "SOLV",
     "GL",
     "BG",
     "TAP",
@@ -492,7 +488,6 @@ companies = [
     "PARA",
     "APA",
     "FOX",
-    "BF.B",
     "BWA",
     "DVA",
     "TFX",
@@ -502,7 +497,6 @@ companies = [
     "CE",
     "FMC",
     "NWS",
-    "SNDK"
 ]
 
 quarter_ranges = [['01-01', '03-31'], ['04-01', '06-30'], ['07-01', '09-30'], ['10-01', '12-03']]
