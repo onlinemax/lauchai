@@ -2,8 +2,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-df = pd.read_csv('Price_index.csv')
-
+df = pd.read_csv('/workspaces/lauchai/Albi/Price_index.csv')
+df['observation_date'] = pd.to_datetime(df['observation_date'])
 
 
 
