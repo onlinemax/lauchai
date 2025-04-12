@@ -39,7 +39,7 @@ df['observation_date'] = pd.to_datetime(df['observation_date'])
 df.set_index('observation_date', inplace=True)
 
 # Resample data into quarterly averages
-df_quarterly = df.resample('Q').mean()
+df_quarterly = df.resample('QE-DEC').mean()
 
 # Reset index for better visibility
 df = df_quarterly.reset_index()
