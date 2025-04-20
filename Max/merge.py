@@ -16,7 +16,7 @@ from constants import quarter_ranges
 # date, total profit, total spending, total revenue
 columns = ['date', 'income_after_depreciation_and_amortization', 'cost_of_goods', 'net_income']
 
-ouput_dir = 'stocks3/'
+ouput_dir = 'stocks2/'
 def get_year(date: str):
     pattern =  "(\\d+-)(\\d+-\\d+)"
     year = re.findall(pattern, date)[0][0]
